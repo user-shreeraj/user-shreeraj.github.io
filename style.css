@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+.container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.video {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.click-area {
+  position: absolute;
+  bottom: 60px;
+  left: 60%;
+  transform: translateX(-50%);
+  width: 50%;
+  height: 30%;
+  cursor: pointer;
+  background-color: rgba(255, 0, 0, 0); /* Transparent red overlay for the clickable area */
+}
+
+/* Add this to your existing CSS file */
+
+#audioButton {
+  position: absolute;
+  top: 90%; /* Adjust this value to position the button vertically */
+  left: 75%; /* Adjust this value to position the button horizontally */
+  width: 50px; /* Adjust the width and height as needed */
+  height: 50px; /* Adjust the width and height as needed */
+  padding: 5px; /* Adjust the padding as needed */
+  background-color: rgba(0, 171, 251, 0.387); /* Transparent color */
+  color: white;
+  border: 2px solid rgb(255, 255, 255); /* Black border */
+  border-radius: 50%; /* Fully circular shape */
+  cursor: pointer;
+  z-index: 1; /* Ensure the button is above the video */
+}
+
+.homebutton{
+  position: absolute;
+  top: 90%; /* Adjust this value to position the button vertically */
+  right: 75%; /* Adjust this value to position the button horizontally */
+  width: 50px; /* Adjust the width and height as needed */
+  height: 50px; /* Adjust the width and height as needed */
+  padding: 5px; /* Adjust the padding as needed */
+  background-color: rgba(0, 171, 251, 0.387); /* Transparent color */
+  color: white;
+  border: 2px solid rgb(255, 255, 255); /* Black border */
+  border-radius: 50%; /* Fully circular shape */
+  cursor: pointer;
+  z-index: 1; /* Ensure the button is above the video */
+}
+
+
+
+
