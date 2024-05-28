@@ -15,6 +15,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Add click event listener to redirect to another page when clickArea is clicked
     document.getElementById('clickArea').addEventListener('click', function() {
-        window.location.href = 'anotherpage.html';
+        window.location.href = 'https://user-shreeraj.github.io/not-found/';
     });
 });
