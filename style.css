@@ -52,6 +52,7 @@ body {
   border-radius: 50%; /* Fully circular shape */
   cursor: pointer;
   z-index: 1; /* Ensure the button is above the video */
+  font-size: 22px;
 }
 
 .homebutton{
@@ -67,6 +68,7 @@ body {
   border-radius: 50%; /* Fully circular shape */
   cursor: pointer;
   z-index: 1; /* Ensure the button is above the video */
+  font-size: 22px;
 }
 
 
